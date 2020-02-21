@@ -23,4 +23,4 @@ feat_relative_size.py
 feat_perimeter_circularity.py
 )
 
-The files "final_19_12_CHO.pickle" and "final_19_12_AGS.pickle" are pandas dataframes which contain the nuclei and membrane features for each pair nucleus-membrane. These dataframes are used to obtain the box plots and statitical analysis, which is performed with the jupyter notebooks "jupyter_notebooks\Features_Comparison_MUT_vs_WT_AGS.ipynb" and "jupyter_notebooks\Features_Comparison_MUT_vs_WT_CHO.ipynb".
+The files "final_19_12_CHO.pickle" and "final_19_12_AGS.pickle" are pandas dataframes which contain the membranes and nuclei features for each pair nucleus-membrane. These dataframes are used to obtain the box plots and statitical analysis, which is performed with the jupyter notebooks "jupyter_notebooks\Features_Comparison_MUT_vs_WT_AGS.ipynb" and "jupyter_notebooks\Features_Comparison_MUT_vs_WT_CHO.ipynb".
