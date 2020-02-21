@@ -9,7 +9,7 @@ Narotamo, H., Sanches, J. M., & Silveira, M. (2019, July). Segmentation of Cell 
 Membrane segmentation is performed based on the Hough Transform.
 
 
-Correct order to run the files, in order to perform membrane segmentation, extract features from the nuclei and membrane
+Correct order to run the files, in order to perform membrane segmentation, extract features from the nuclei and membrane, assign a nucleus to each membrane and extract additional features after the assignment step:
 
 1) final.py --> performs membrane segmentation using Hough Transform
 2) test.py --> by running this script features for the nuclei are extracted (these features are defined in "nuclei_features.py")
