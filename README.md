@@ -4,6 +4,7 @@ Cell Nucleus and Membrane Segmentation and Feature Extraction
 Code developed for the analysis of microscopy images of cells stained with DAPI and with a marker for the membrane.
 Cell nuclei segmentation is performed using our previously proposed method: 
 
+Narotamo, H., Sanches, J. M., & Silveira, M. (2019, July). Segmentation of Cell Nuclei in Fluorescence Microscopy Images Using Deep Learning. In Iberian Conference on Pattern Recognition and Image Analysis (pp. 53-64). Springer, Cham.
 
 Membrane segmentation is performed based on the Hough Transform.
 
