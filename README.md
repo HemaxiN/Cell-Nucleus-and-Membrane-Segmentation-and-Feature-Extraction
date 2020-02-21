@@ -1,4 +1,4 @@
-**Cell Nucleus and Membrane Segmentation and Feature Extraction
+**Cell Nucleus and Membrane Segmentation and Feature Extraction**
 
 
 Code developed for the analysis of microscopy images of cells stained with DAPI and with a marker for the membrane.
