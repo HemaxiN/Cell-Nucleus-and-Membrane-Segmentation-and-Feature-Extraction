@@ -12,7 +12,7 @@ Membrane segmentation is performed based on the Hough Transform.
 Correct order to run the files, in order to perform membrane segmentation, extract features from the nuclei and membrane, assign a nucleus to each membrane and extract additional features after the assignment step:
 
 1) final.py --> performs membrane segmentation using Hough Transform
-2) test.py --> by running this script features for the nuclei are extracted (these features are defined in "nuclei_features.py")
+2) test.py --> by running this script, features for the nuclei are extracted (these features are defined in "nuclei_features.py")
 3) Hough_transform.py + select_circles.py --> manually select nuclei and membrane that are correctly segmented
 4) group_all_pandas_df.py --> convert pickle objects to pandas dataframe
 5) assignment --> assign each nucleus to a membrane
@@ -23,4 +23,4 @@ feat_relative_size.py
 feat_perimeter_circularity.py
 )
 
-The files "final_19_12_CHO.pickle" and "final_19_12_AGS.pickle" are pandas dataframes which contain the membranes and nuclei features for each pair nucleus-membrane. These dataframes are used to obtain the box plots and statitical analysis, which is performed with the jupyter notebooks "jupyter_notebooks\Features_Comparison_MUT_vs_WT_AGS.ipynb" and "jupyter_notebooks\Features_Comparison_MUT_vs_WT_CHO.ipynb".
+The files "final_19_12_CHO.pickle" and "final_19_12_AGS.pickle" are pandas dataframes which contain the membranes and nuclei features for each pair nucleus-membrane, extracted from the CHO and AGS images, respectively. These dataframes are used to obtain the box plots and statitical analysis, which is performed with the jupyter notebooks "jupyter_notebooks\Features_Comparison_MUT_vs_WT_AGS.ipynb" and "jupyter_notebooks\Features_Comparison_MUT_vs_WT_CHO.ipynb".
